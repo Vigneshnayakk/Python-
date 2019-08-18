@@ -12,15 +12,6 @@ def climbingLeaderboard(scores, alice):
         c.pop(temp)
     return r
 
-
-
-
-
-
-
-
-
-
 scores_count = int(input())
 scores = list(map(int, input().rstrip().split()))
 alice_count = int(input())
